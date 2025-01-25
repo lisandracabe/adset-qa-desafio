@@ -10,7 +10,7 @@ import {
 } from './loginHelper';
 
 test.describe('Testes de Login', () => {
-  
+
   test('Dado que estou na página de login, Quando insiro email e senha válidos, Então devo ver o link Sair', async ({ page }) => {
     await dadoQueEstouNaPaginaDeLogin(page);
     await quandoEuInsiroOEmail(page, 'qa@adset.com.br');
